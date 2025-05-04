@@ -71,12 +71,10 @@ section#inicio > p {
 section#inicio > div{
     position: relative;
     height: 100px;
+    margin:auto
 }
 
 section#inicio > div > a {
-    position: absolute;
-    top: 50%;
-    left: 38%;
     display: block;
     background-color: rgb(177, 177, 2);
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.219);
@@ -85,13 +83,13 @@ section#inicio > div > a {
     border-radius: 50px;
     width: 90px;
     margin: auto;
+    margin-top: 50px;
     padding: 15px;
 }
 
 section#inicio > div > a:hover {
-    background-color: rgb(206, 206, 5);
-    top: 40%;    
-    transition: background-color 0.5s ease, top 0.5s ease;
+    background-color: rgb(206, 206, 5);  
+    transition: background-color 0.5s ease;
 
 }
 
