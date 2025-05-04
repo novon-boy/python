@@ -8,6 +8,7 @@
 
 body {
     background: black linear-gradient(to bottom right, #0113E0, #3600E0, #7F00E0)fixed;
+    height: 100vh;
     color: white;
 }
 
