@@ -48,7 +48,7 @@ section#inicio > h1 {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 450px;
+    max-width: 400px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
     text-align: center;
