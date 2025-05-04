@@ -93,8 +93,45 @@ section#inicio > div > a:hover {
 
 }
 
-section#inicio article#introducao {
-    margin-top: 20px;
+section#inicio article {
+    background-image: linear-gradient(to right, rgba(206, 206, 5, 0.705), rgba(206, 206, 5, 0.788));
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+section#inicio article > h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section#inicio article p {
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+section#inicio article#introducao > img{
+    display: block;
+    height: 210px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+section#inicio article#desenvolvimento {
+    background-image: linear-gradient(to right, rgba(151, 151, 6, 0.705), rgba(151, 151, 6, 0.788));
+    margin-top: 100px;
+}
+
+section#inicio #desenvolvimento > img{
+    display: block;
+    margin: auto;
+    height: 190px;
+    border-radius: 20px;
+
 }
 
 a {
